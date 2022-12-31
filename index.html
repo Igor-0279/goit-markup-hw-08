@@ -543,18 +543,95 @@
                         </li>
                     </ul>
             </div>
-
+            <div class="mailing-list">
+                <h3 class="mailing-text">Підпишіться на розсилку</h3>
+                <form class="mailing-form">
+                    <label class="mailing-label">
+                        <input class="mailing-input" type="email" placeholder="E-mail"  required>
+                    </label>
+                    <div class="mailing-button">
+                        <button class="mailing-btn" type="submit">Підписатися</button>
+                        <svg class="mailing-icon" width="24" height="24"> 
+                            <use href="./image/icons.svg/symbol-defs.svg#icon-telegram"></use>
+                        </svg>
+                    </div>
+                </form>
+            </div>
          </div>
          
     </footer>
+
+    <!-- Modal window -->
     
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button  type="button" class="button-btn" data-modal-close>
-               <svg  width="18" height="18">
+               
+               <button  type="button" class="button-btn" data-modal-close>
+                
+               <svg class="button-close" width="18" height="18">
                     <use href="./image/icons.svg/symbol-defs.svg#icon-close-form"></use>
-                </svg> 
-            </button>
+                </svg>
+                </button>
+       
+            <!--  Modal form  -->
+
+             <h2 class ="modal-title"> Залиште свої дані, і ми вам зателефонуємо </h2 >
+            <form class="modal-form" name="modal_form">
+                
+            <div class="modal-block">
+                <label for="user_name" class="form-group">
+                    <span class="modal-label">Ім'я</span>
+                </label> 
+                    <div class="form-input">
+                    <input
+                     type="text" 
+                     name="user_name" 
+                     id="user_name"
+                     class="modal-input"
+                     required
+                      >
+                    <svg class="modal-form-icon" width="20" height="20"> 
+                        <use href="./image/icons.svg/symbol-defs.svg#icon-person"></use>
+                    </svg>
+                    </div>
+                
+                <label for="tel" class="form-group">
+                    <span class="modal-label">Телефон</span>
+                </label>    
+                    <div class="form-input">
+                    <input type="tel" name="tel" id="tel" class="modal-input">
+                    <svg class="modal-form-icon" width="20" height="20">
+                        <use href="./image/icons.svg/symbol-defs.svg#icon-tel"></use>
+                    </svg>
+                    </div>
+                 
+                <label for="mail" class="form-group">  
+                    <span  class="modal-label">Пошта</span>
+                </label> 
+                <div class="form-input">
+                    <input type="email" name="mail" id="mail" class="modal-input">
+                    <svg class="modal-form-icon" width="20" height="20">
+                        <use href="./image/icons.svg/symbol-defs.svg#icon-email"></use>
+                    </svg>
+                </div>    
+                
+                <div class="modal-coment-div">
+                <label for="coments" class="modal-label">    
+                    <span >Коментар</span>
+                    
+                    <textarea class="modal-coment" name="coments" id="coments"   rows="6" placeholder="Тут може бути ваш коментар"></textarea>
+                </label>
+                </div>
+                
+                <label class="modal-label checkbox-label">
+                    <input type="checkbox" class="modal-checkbox" name="agreement">
+                    <span class="modal-checkbox-text">Погоджуюся з розсилкою та приймаю <a class="modal-active" href="#">Умови договору</a> 
+                    </span>
+                </label>
+                  
+                    <button class="modal-button" type="submit">Відправити</button>
+            </div>
+            </form>         
         </div>
     </div>
     <script src="./js/modal.js"></script>
