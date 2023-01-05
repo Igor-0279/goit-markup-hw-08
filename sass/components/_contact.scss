@@ -1,0 +1,35 @@
+/*Контакти*/
+.contact {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    &-link {
+        margin-right: 50px;
+        &:last-child {
+                margin-right: 0;
+            }
+    }
+}
+
+.contact-link__post {
+    display: inline-grid;
+    grid-auto-flow: column;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: $primery-text-color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-icon {
+    fill: currentColor;
+}
+
+.header-icon:hover,
+.header-icon:focus {
+    fill: currentColor;
+}

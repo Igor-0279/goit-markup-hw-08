@@ -1,0 +1,51 @@
+/*Hero*/
+
+.hero {
+    max-width: 1600px;
+    padding-bottom: 200px;
+    text-align: center;
+    padding-top: 200px;
+    background-color: #2f303a;
+
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../image/Img-fon.jpg);
+    margin-left: auto;
+    margin-right: auto;
+    background-position: center;
+    background-size: cover;
+    
+    &__title {
+            font-weight: 900;
+            font-size: 44px;
+            line-height: 1.4;
+    
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+            /*padding-top: 200px;*/
+            margin-top: 0;
+            margin-bottom: 30px;
+    
+            color: #ffffff;
+        }
+}
+
+.button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 0 auto;
+
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 216px;
+    text-align: center;
+    border: 1px solid transparent;
+
+    color: $button-color;
+    background-color: $active-color;
+    display: inline-block;
+}

@@ -1,0 +1,26 @@
+/*import styles*/
+
+@import './utils/variabless';
+@import './utils/reset';
+@import './utils/v-hidden';
+@import './utils/plasholder';
+@import './utils/mixin';
+
+/*component styles*/
+
+@import './components/base';
+@import './components/header';
+@import './components/nav';
+@import './components/contact';
+@import './components/hero';
+@import './components/feature';
+@import './components/box-work';
+@import './components/team';
+@import './components/client';
+@import './components/footer';
+@import './components/mailing';
+@import './components/modal';
+@import './components/modal-form';
+@import './components/portf';
+@import './components/project';
+

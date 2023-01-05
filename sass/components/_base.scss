@@ -1,0 +1,21 @@
+/*Тіло*/
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.container-header {
+    display: flex;
+}
+.section-title {
+    @extend %titles
+}
