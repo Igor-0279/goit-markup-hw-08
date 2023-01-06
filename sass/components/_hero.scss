@@ -1,5 +1,4 @@
 /*Hero*/
-
 .hero {
     max-width: 1600px;
     padding-bottom: 200px;
@@ -13,8 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     background-position: center;
-    background-size: cover;
-    
+    background-size: cover;  
     &__title {
             font-weight: 900;
             font-size: 44px;
@@ -22,14 +20,12 @@
     
             letter-spacing: 0.06em;
             text-transform: uppercase;
-            /*padding-top: 200px;*/
             margin-top: 0;
             margin-bottom: 30px;
     
             color: #ffffff;
         }
 }
-
 .button {
     font-weight: 700;
     font-size: 16px;

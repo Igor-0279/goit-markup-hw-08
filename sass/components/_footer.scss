@@ -1,15 +1,14 @@
 /*Підвал*/
 .footer {
-    background-color: #2f303a;
-   @include section-paddings($top: 60px, $bottom: 60px);
-}
+    @include section-paddings($top: 60px, $bottom: 60px);
 
-.footer-container {
+    background-color: #2f303a;
+}
+.footer--container {
     display: flex;
     align-items: baseline;
 }
-
-.logo-footer-top {
+.logo-footer-item {
     margin-bottom: 20px;
 }
 .logo-footer {
@@ -22,19 +21,16 @@
 
     color: $color-icon;
 }
-
-.contact-footer-top {
+.contact-footer-item {
     margin-bottom: 9px;
     &:last-child {
             margin-bottom: 0;
         }
 }
-
 .footer-address {
     margin-right: 70px;
     width: 231px;
 }
-
 .address {
     font-family: "Roboto";
     font-style: normal;
@@ -48,7 +44,6 @@
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .contact-footer {
     font-size: 14px;
     line-height: 1.71;
@@ -65,7 +60,6 @@
     margin-right: 93px;
     width: 206px;
 }
-
 .footer-text {
     font-weight: 700;
     font-size: 14px;
@@ -78,14 +72,12 @@
     color: $button-color;
 }
 /*Social-footer*/
-
 .social-footer {
     display: flex;
 
     padding: 0;
     gap: 10px;
 }
-
 .social-link-footer {
     display: flex;
     width: 44px;
@@ -105,7 +97,6 @@
             fill: $button-color;
         }
 }
-
 .social-icon-footer {
     fill: $button-color;
 }

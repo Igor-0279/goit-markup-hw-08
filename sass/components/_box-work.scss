@@ -1,10 +1,9 @@
 /*Чим ми займаємося*/
-
-
-
 .box {
     padding-bottom: 94px;
-    display: flex;
+        &__top {
+            display: flex;
+            }  
         &__work {
             display: flex;
             position: relative;
@@ -15,7 +14,6 @@
                 margin-right: 0;
             }
         }
-    
         &__div {
             position: absolute;
             bottom: 0;
@@ -23,7 +21,6 @@
             width: 100%;
             background-color: rgba(47, 48, 58, 0.8);
         }
-    
         &__text {
             font-weight: 700;
             font-size: 14px;

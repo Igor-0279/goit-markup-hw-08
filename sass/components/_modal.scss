@@ -11,7 +11,6 @@
     background-color: rgba(0, 0, 0, 0.2);
     transition: transform 350ms linear, opacity 350ms;
 }
-
 .modal {
     position: relative;
     width: 544px;
@@ -24,16 +23,13 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 350ms linear, opacity 500ms;
 }
-
 .is-hidden {
     opacity: 0;
     pointer-events: none;
 }
-
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%);
 }
-
 .button-btn {
     display: block;
     top: 8px;
@@ -48,7 +44,6 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: transparent;
 }
-
 .button-close:hover,
 .button-close:active {
     fill: #2193f3;

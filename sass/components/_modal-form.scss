@@ -6,7 +6,6 @@
     margin-right: 40px;
     position: relative;
 }
-
 .modal-title {
     text-align: center;
     margin-top: 40px;
@@ -20,16 +19,13 @@
 
     color: #212121;
 }
-
 .modal-label {
     font-size: 12px;
     line-height: calc(14 / 12);
-
     letter-spacing: 0.01em;
 
     color: #757575;
 }
-
 .modal-input {
     display: flex;
     flex-direction: column;
@@ -40,16 +36,13 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
-
 .modal-input:hover,
 .modal-input:focus,
 .modal-coment:hover,
 .modal-coment:focus {
     border-color: #2193f3;
     border-radius: 4px;
-
 }
-
 .modal-form-icon {
     position: absolute;
     top: 50%;
@@ -61,13 +54,10 @@
             fill: #2193f3;
         }
 }
-
 .form-input {
     position: relative;
-
     margin-bottom: 14px;
 }
-
 .modal-coment {
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -79,7 +69,6 @@
     padding: 12px 16px;
     outline: transparent;
 }
-
 .modal-button {
     width: 200px;
     height: 50px;
@@ -99,7 +88,6 @@
     transition: background-color 250ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
     box-shadow: 250ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
-
 .modal-button:hover,
 .mailing-btn:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -107,34 +95,27 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
 .modal-coment-div {
     margin: 0;
     padding: 0;
 }
-
 .modal-active {
     color: #2196f3;
     border-bottom: 1px solid currentColor;
 }
-
 .modal-checkbox-text {
     font-size: 14px;
     line-height: calc(24 / 14);
-
     letter-spacing: 0.03em;
 
     color: #757575;
 }
-
 .checkbox-label {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
-
 }
-
 .modal-checkbox {
     position: absolute;
     --webkit-appearance: none;
@@ -150,7 +131,6 @@
             border-radius: 4px;
         }
 }
-
 .modal-checkbox:checked+.modal-checkbox-icon {
     background-color: #2196f3;
     background-image: url(../image/icons8-done.svg);

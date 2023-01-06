@@ -5,17 +5,25 @@ body {
     font-weight: 400;
     padding: 0;
 }
-
 .container {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 }
-
-.container-header {
+.container--header {
     display: flex;
 }
 .section-title {
     @extend %titles
+}
+.nav__link:hover,
+.nav__link:focus,
+.contact__link-post:hover,
+.contact__link-post:focus,
+.contact.address:hover,
+.contact.address:focus,
+.contact-footer:hover,
+.contact-footer:focus {
+    color: $active-color;
 }
