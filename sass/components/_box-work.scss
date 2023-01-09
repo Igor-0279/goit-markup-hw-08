@@ -1,11 +1,16 @@
 /*Чим ми займаємося*/
 .box {
+        display: none;
+    @media screen and (min-width:1200px){
+        display: block;
+    }
+    
     padding-bottom: 94px;
         &__top {
             display: flex;
             }  
         &__work {
-            display: flex;
+            // display: flex;
             position: relative;
     
             margin-right: 30px;

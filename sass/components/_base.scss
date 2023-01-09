@@ -6,16 +6,41 @@ body {
     padding: 0;
 }
 .container {
-    width: 1200px;
+    // width: 1200px;
+    // max-width: 480px;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    @media screen and (min-width:480px) {
+            width: 480px;
+    }
+    @media screen and (min-width:768px) {
+            width: 768px;
+    }
+        @media screen and (min-width:1200px) {
+            width: 1200px;
+        }
 }
+
 .container--header {
     display: flex;
 }
 .section-title {
-    @extend %titles
+    font-weight: 700;
+        font-size: 28px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        margin-bottom: 30px;
+        color: $secondary-text-color;
+    
+        @media screen and (min-width:1200px) {
+            font-size: 33px;
+            margin-bottom: 50px;
+        }
+                
 }
 .nav__link:hover,
 .nav__link:focus,
