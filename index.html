@@ -53,14 +53,14 @@
     
     <main>
         <!--Герой-->
-        <!-- <section class="hero">
+        <section class="hero">
         <div class="container"> 
                     <h1 class="hero__title">Ефективні рішення для <br> вашого бізнесу</h1>
                  <button type="button" class="button" data-modal-open>
                 Замовити послугу
             </button>
         </div> 
-        </section> -->
+        </section>
         <!--Наші переваги-->
         
         <section class="feature">
@@ -147,7 +147,15 @@
             <h2 class="section-title">Наша команда</h2>   
             <ul class="team__top">
                 <li class="team-card">
-                    <img src="image/img(3).jpg" alt="Ігор Дем'яненко" width="270" height="260">
+                    <picture>
+                       <source srcset="./image/team/img1_bg@1x.jpg 1x, ./image/team/img1_bg@2x.jpg 2x " media="(min-width: 1143px)">
+                       <source srcset="./image/team/img1_md@1x.jpg 1x, ./image/team/img1_md@2x.jpg 2x " media="(min-width: 768px)">
+                       <source srcset="./image/team/img1_sm@1x.jpg 1x, ./image/team/img1_sm@2x.jpg 2x " media="(max-width: 767px)">    
+                    <img
+                     src="./image/team/img1_sm@1x.jpg" 
+                    alt="Ігор Дем'яненко"
+                    >
+                    </picture>
                     <h3 class="team-card__title">Ігор Дем'яненко</h3>
                     <p class="team-card__text">Product Designer</p>
                     <div class="social-team">
@@ -208,12 +216,21 @@
                     </div>
                 </li>
                 <li class="team-card">
-                    <img src="image/img(4).jpg" alt="Ольга Рєпіна" width="270" height="260">
+                      <picture>
+                       <source srcset="./image/team/img2_bg@1x.jpg 1x, ./image/team/img2_bg@2x.jpg 2x " media="(min-width: 1143px)">
+                       <source srcset="./image/team/img2_md@1x.jpg 1x, ./image/team/img2_md@2x.jpg 2x " media="(min-width: 768px)">
+                       <source srcset="./image/team/img2_sm@1x.jpg 1x, ./image/team/img2_sm@2x.jpg 2x " media="(max-width: 767px)">    
+                    <img
+                     src="./image/team/img2_sm@1x.jpg" 
+                    alt="Ольга Рєпіна"
+                    >
+                    </picture>
                     <h3 class="team-card__title">Ольга Рєпіна</h3>
                     <p class="team-card__text">Frontend Developer</p>
                     <div class="social-team">
                     <ul class="social">
                         <li class="social-item">
+                           
                             <a  
                             class="social-link"
                             href=https://www.instagram.com/
@@ -221,6 +238,7 @@
                             rel="noopener noreferrer"
                             aria-label="instagram"
                             >
+                            </picture>
                                 <svg class="social-icon" width="20" height="20">
                                 <use href="./image/icons.svg/symbol-defs.svg#icon-instagram2"></use>
                                 </svg>
@@ -269,12 +287,21 @@
                     </div>
                 </li>
                 <li class="team-card">
-                    <img src="image/img(5).jpg" alt="Микола Тарасов" width="270" height="260">
+                        <picture>
+                       <source srcset="./image/team/img3_bg@1x.jpg 1x, ./image/team/img3_bg@2x.jpg 2x " media="(min-width: 1143px)">
+                       <source srcset="./image/team/img3_md@1x.jpg 1x, ./image/team/img3_md@2x.jpg 2x " media="(min-width: 768px)">
+                       <source srcset="./image/team/img3_sm@1x.jpg 1x, ./image/team/img3_sm@2x.jpg 2x " media="(max-width: 767px)">    
+                    <img
+                     src="./image/team/img3_sm@1x.jpg" 
+                    alt="Микола Тарасов"
+                    >
+                    </picture>
                     <h3 class="team-card__title">Микола Тарасов</h3>
                     <p class="team-card__text">Marketing</p>
                     <div class="social-team">
                     <ul class="social">
                         <li class="social-item">
+                            
                             <a  
                             class="social-link"
                             href=https://www.instagram.com/
@@ -282,6 +309,7 @@
                             rel="noopener noreferrer"
                             aria-label="instagram"
                             >
+                            </picture>
                                 <svg class="social-icon" width="20" height="20">
                                 <use href="./image/icons.svg/symbol-defs.svg#icon-instagram2"></use>
                                 </svg>
@@ -330,12 +358,21 @@
                     </div>
                 </li>
                 <li class="team-card">
-                    <img src="image/img(6).jpg" alt="Михайло Єрмаков" width="270" height="260">
+                     <picture>
+                       <source srcset="./image/team/img4_bg@1x.jpg 1x, ./image/team/img4_bg@2x.jpg 2x " media="(min-width: 1143px)">
+                       <source srcset="./image/team/img4_md@1x.jpg 1x, ./image/team/img4_md@2x.jpg 2x " media="(min-width: 768px)">
+                       <source srcset="./image/team/img4_sm@1x.jpg 1x, ./image/team/img4_sm@2x.jpg 2x " media="(max-width: 767px)">    
+                    <img
+                     src="./image/team/img4_sm@1x.jpg" 
+                    alt="Михайло Єрмаков"
+                    >
+                    </picture>
                     <h3 class="team-card__title">Михайло Єрмаков</h3>
                     <p class="team-card__text">UI Designer</p>
                     <div class="social-team">
                     <ul class="social">
                         <li class="social-item">
+                            
                             <a  
                             class="social-link"
                             href=https://www.instagram.com/
@@ -343,6 +380,7 @@
                             rel="noopener noreferrer"
                             aria-label="instagram"
                             >
+                          
                                 <svg class="social-icon" width="20" height="20">
                                 <use href="./image/icons.svg/symbol-defs.svg#icon-instagram"></use>
                                 </svg>
