@@ -4,8 +4,13 @@
     position: relative;
     // width: 570px;
     // height: 86px;
+    
     &__form{
         display: block;
+        @media screen and (min-width: 1200px){
+            display: flex;
+            align-items: baseline;
+        }
     }
     &__text {
          margin-bottom: 20px;
@@ -16,20 +21,32 @@
          text-transform: uppercase;
     
          color: #ffffff;
+          @media screen and (min-width: 1200px){
+            text-align: left;
+          }
     }
     &__input {
-        width: 358px;
+        width: 320px;
         height: 50px;
-    
+        @media screen and (min-width: 768px){
+            width: 450px;
+        }
+        @media screen and (min-width: 1200px){
+            width: 358px;
+        }
         color: #ffffff;
         background: #2f303a;
         border: 1px solid rgba(255, 255, 255, 0.3);
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
         border-radius: 4px;
+         @media screen and (min-width: 1200px){
+             margin-right:10px;
+         }
+        
     }
     &__button {
         // position: absolute;
-    
+        margin-top: 20px;
         bottom: 0;
          right: 0;
     }

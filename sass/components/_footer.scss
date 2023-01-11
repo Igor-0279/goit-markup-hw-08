@@ -2,18 +2,58 @@
 .footer {
     @include section-paddings($top: 60px, $bottom: 60px);
    
+   @media screen and (min-width: 1200px){
+     @include section-paddings();
+   }
     background-color: #2f303a;
     // @media screen and (min-width: 480px) {
     //         width: 100%;
+            
     //     }
               
 }
 .footer--container {
-    // display: flex;
+    // flex-direction:column;
+    // flex-basis: auto;
+    display: flex;
+    flex-wrap: wrap;
     align-items: baseline;
     text-align: center;
-    @media screen and (min-width: 768px){
-        display: flex;
+    justify-content: center;
+    
+    
+}
+.footer-address {
+    // display: block;
+   
+    width: 231px;
+    margin-bottom: 60px;
+    margin-left: 124px;
+    margin-right: 124px;
+     @media screen and (min-width: 768px){
+        margin-left: auto;
+    margin-right: auto;
+     }
+     @media screen and (min-width: 1200px){
+        margin-right: 70px;
+        margin-left: 0;
+        margin-bottom: 0;
+     }
+    
+    //  @media screen and (min-width: 480px) {
+    //     width: 100%;
+    // }
+    @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+       justify-content: space-between;
+       display: flex;
+        align-items: baseline;
+        // padding-right: 74px;
+        // padding-left: 71px;
+    }
+
+    @media screen and (min-width: 1200px){
+         display: flex;
+        align-items: baseline;
     }
 }
 .logo-footer-item {
@@ -29,17 +69,15 @@
 
     color: $color-icon;
 }
-.contact-footer-item {
+
+.contact-footer-link {
     margin-bottom: 9px;
     &:last-child {
             margin-bottom: 0;
         }
 }
-.footer-address {
-    display: block;
-    margin-right: 70px;
-    width: 231px;
-}
+
+
 .address {
     font-family: "Roboto";
     font-style: normal;
@@ -66,8 +104,12 @@
 }
 /*приєднуйтесь*/
 .social-team-footer {
-    margin-right: 93px;
+    // margin-right: 93px;
     width: 206px;
+    margin-bottom: 60px;
+     @media screen and (min-width: 768px) {
+                margin-right: 93px;
+            }
 }
 .footer-text {
     font-weight: 700;
