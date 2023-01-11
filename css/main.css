@@ -108,8 +108,8 @@ body {
 .nav__link:focus,
 .contact__link-post:hover,
 .contact__link-post:focus,
-.contact.address:hover,
-.contact.address:focus,
+.contact-address:hover,
+.contact-address:focus,
 .contact-footer:hover,
 .contact-footer:focus {
   color: #2196f3;
@@ -727,8 +727,8 @@ body {
 .footer-address {
   width: 231px;
   margin-bottom: 60px;
-  margin-left: 124px;
-  margin-right: 124px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 @media screen and (min-width: 768px) {
   .footer-address {
@@ -789,7 +789,7 @@ body {
   margin-bottom: 0;
 }
 
-.address {
+.contact-address {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
