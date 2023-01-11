@@ -1377,6 +1377,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1387,7 +1388,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-width: 320px;
   height: 796px;
   padding: 48px 40px;
   background-color: #ffffff;
@@ -1398,6 +1398,11 @@ body {
   transition: -webkit-transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out;
   transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+@media (min-width: 480px) {
+  .menu-container {
+    width: 480px;
+  }
 }
 @media (min-width: 768px) {
   .menu-container {
