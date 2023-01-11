@@ -1,8 +1,12 @@
 /* Підпишіться на розсилку */
 .mailing {
+    
     position: relative;
-    width: 570px;
-    height: 86px;
+    // width: 570px;
+    // height: 86px;
+    &__form{
+        display: block;
+    }
     &__text {
          margin-bottom: 20px;
          font-weight: 700;
@@ -24,7 +28,7 @@
         border-radius: 4px;
     }
     &__button {
-        position: absolute;
+        // position: absolute;
     
         bottom: 0;
          right: 0;

@@ -24,6 +24,11 @@
                 }
         }
  }
+ @media (max-width: 767px) {
+     .nav {
+         display: none;
+     }
+ }
 .nav__link{
     color: $secondary-text-color;
         &.current {

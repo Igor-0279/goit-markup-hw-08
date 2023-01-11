@@ -72,9 +72,9 @@
 .modal-button {
     width: 200px;
     height: 50px;
-    position: absolute;
-    right: 125px;
-    bottom: -80px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     color: #ffffff;
     background: #188ce8;
     border: 1px solid $active-color;
