@@ -1,14 +1,11 @@
 /* Modal form */
-
-.modal-block {
-    margin-left: 40px;
-
-    margin-right: 40px;
-    position: relative;
+.modal{
+    padding: 40px;
 }
+
 .modal-title {
     text-align: center;
-    margin-top: 40px;
+    // margin-top: 40px;
     margin-bottom: 12px;
 
     font-weight: 700;
@@ -18,13 +15,6 @@
     letter-spacing: 0.03em;
 
     color: #212121;
-}
-.modal-label {
-    font-size: 12px;
-    line-height: calc(14 / 12);
-    letter-spacing: 0.01em;
-
-    color: #757575;
 }
 .modal-input {
     display: flex;
@@ -73,6 +63,7 @@
     width: 200px;
     height: 50px;
     display: block;
+    margin-top: 31px;
     margin-right: auto;
     margin-left: auto;
     color: #ffffff;
@@ -104,9 +95,13 @@
     border-bottom: 1px solid currentColor;
 }
 .modal-checkbox-text {
-    font-size: 14px;
-    line-height: calc(24 / 14);
+    font-size: 12px;
+    line-height: calc(14 / 12);
     letter-spacing: 0.03em;
+    @media screen and(min-width: 1200px){
+        font-size: 14px;
+        line-height: calc(24 / 14);
+    }
 
     color: #757575;
 }

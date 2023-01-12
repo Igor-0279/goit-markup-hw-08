@@ -9,9 +9,7 @@
                         display: flex;
                         flex-wrap: wrap;
                 }
-                @media screen and (min-width:1200px) {
-                    // display: flex;   
-                    }
+               
             }
         &__div {
             display: flex;
@@ -24,18 +22,9 @@
             background: #f5f4fa;
             border-radius: 4px;
             margin-bottom: 30px;
-            
+             
         }  
-                // @media screen and (min-width:768px) {
-        
-                //     width: 354px;
-                    
-                // }
-        
-                // @media screen and (min-width:1200px) {
-                //     width: 270px;
-                  
-                // }
+            
 
         &__item {
             // width: 270px;
@@ -58,6 +47,7 @@
             }
             @media screen and (min-width:1200px) {
                     width: 270px;
+                     margin-bottom: 0;
                     margin-right: 30px;
                     &:nth-child(2n) {
                             margin-right: 30px;

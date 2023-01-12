@@ -2,22 +2,25 @@
 .contact {
     // display: flex;
     margin-left: auto;
-    align-items: center;
+    
 
      @media screen and (min-width: 768px) {
         display: flex;
+        
         flex-direction: column;
-        margin-top: 21px;
+        
         gap: 10px;
     }
      @media screen and (min-width: 1200px){
         display: flex;
+       
+        align-items: center;
         flex-direction: row;
          
    
     &__link {
        
-    margin-right: 50px;
+    margin-right: 30px;
     }
        
         &:last-child {

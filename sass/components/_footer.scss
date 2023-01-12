@@ -1,58 +1,48 @@
 /*Підвал*/
 .footer {
     @include section-paddings($top: 60px, $bottom: 60px);
-   
-   @media screen and (min-width: 1200px){
-     @include section-paddings();
-   }
+
     background-color: #2f303a;
-    // @media screen and (min-width: 480px) {
-    //         width: 100%;
-            
-    //     }
-              
+    
 }
 .footer--container {
     // flex-direction:column;
     // flex-basis: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
+    
     text-align: center;
     justify-content: center;
-    
-    
+    @media screen and (min-width: 768px){
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
 }
 .footer-address {
     // display: block;
    
-    width: 231px;
-    margin-bottom: 60px;
-    margin-left: 120px;
-    margin-right: 120px;
+    // width: 231px;
+     margin-bottom: 60px;
+    // margin-left: 120px;
+    
      @media screen and (min-width: 768px){
+        flex-wrap: wrap;
+        display: flex;
         margin-left: auto;
-    margin-right: auto;
+       margin-right: 165px;
      }
      @media screen and (min-width: 1200px){
         margin-right: 70px;
         margin-left: 0;
         margin-bottom: 0;
      }
-    
-    //  @media screen and (min-width: 480px) {
-    //     width: 100%;
-    // }
     @media screen and (min-width: 768px) and (max-width: 1199.98px) {
-       justify-content: space-between;
-       display: flex;
+        justify-content: space-between;
+        display: flex;
         align-items: baseline;
-        // padding-right: 74px;
-        // padding-left: 71px;
     }
 
     @media screen and (min-width: 1200px){
-         display: flex;
+        //  display: flex;
         align-items: baseline;
     }
 }
@@ -107,7 +97,9 @@
 /*приєднуйтесь*/
 .social-team-footer {
     // margin-right: 93px;
-    width: 206px;
+    // width: 206px;
+    text-align: center;
+    justify-content: center;
     margin-bottom: 60px;
      @media screen and (min-width: 768px) {
                 margin-right: 93px;
@@ -127,7 +119,7 @@
 /*Social-footer*/
 .social-footer {
     display: flex;
-
+    justify-content: center;
     padding: 0;
     gap: 10px;
 }
