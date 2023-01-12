@@ -1,6 +1,6 @@
 /*Логотип*/
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 .logo {
   text-decoration: none;
@@ -10,14 +10,13 @@
   line-height: 1.3;
   letter-spacing: 0.03em;
   margin-right: 87px;
-  padding: 10px 0;
-  @media screen and (min-width: 1200px){
+  padding: 13px 0;
+  @media screen and (min-width: 1200px) {
     margin-right: 93px;
   }
   // margin-right: 93px;
   color: $secondary-text-color;
-    &__accent {
-        color: $active-color;
-    }
+  &__accent {
+    color: $active-color;
+  }
 }
-

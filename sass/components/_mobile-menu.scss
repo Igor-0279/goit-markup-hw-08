@@ -85,9 +85,9 @@
   letter-spacing: 0.02em;
 }
 
-.mobile-menu .link {
+.mobile-menu-link {
   display: block;
-  padding: 10px;
+  margin-bottom: 35px;
   text-decoration: none;
   color: #212121;
   &:hover,
@@ -97,12 +97,12 @@
 }
 
 .mobile-contacts {
-  margin-bottom: 40px;
+  margin-bottom: 64px;
 }
 
 .mobile-contacts-item {
   &:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 32px;
   }
 }
 .mobile-contacts-link-tel {
@@ -113,7 +113,7 @@
   letter-spacing: 0.02em;
 
   color: $active-color;
-  @media (min-width: 480px){
+  @media (min-width: 480px) {
     font-size: 34px;
   }
 }

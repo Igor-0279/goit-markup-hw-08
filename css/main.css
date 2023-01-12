@@ -120,7 +120,7 @@ body {
 
 /*Логотип*/
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -131,7 +131,7 @@ body {
   line-height: 1.3;
   letter-spacing: 0.03em;
   margin-right: 87px;
-  padding: 10px 0;
+  padding: 13px 0;
   color: #212121;
 }
 @media screen and (min-width: 1200px) {
@@ -923,8 +923,8 @@ body {
   }
 }
 .mailing__input {
-  width: 290px;
   height: 50px;
+  width: 100%;
   color: #ffffff;
   background: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -948,8 +948,14 @@ body {
   }
 }
 .mailing__button {
+  margin-top: 20px;
   bottom: 0;
   right: 0;
+}
+@media screen and (min-width: 1200px) {
+  .mailing__button {
+    margin-top: 0;
+  }
 }
 .mailing__btn {
   position: relative;
@@ -1448,22 +1454,22 @@ body {
   letter-spacing: 0.02em;
 }
 
-.mobile-menu .link {
+.mobile-menu-link {
   display: block;
-  padding: 10px;
+  margin-bottom: 35px;
   text-decoration: none;
   color: #212121;
 }
-.mobile-menu .link:hover, .mobile-menu .link:focus {
+.mobile-menu-link:hover, .mobile-menu-link:focus {
   color: #2196f3;
 }
 
 .mobile-contacts {
-  margin-bottom: 40px;
+  margin-bottom: 64px;
 }
 
 .mobile-contacts-item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 32px;
 }
 
 .mobile-contacts-link-tel {

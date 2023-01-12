@@ -1,77 +1,73 @@
 /*Наші переваги*/
 .feature {
-    @include section-paddings(60px, 60px);
-        @media screen and (min-width:1200px) {
-            @include section-paddings();
-            }
-        &__list {
-                @media screen and (min-width:768px){
-                        display: flex;
-                        flex-wrap: wrap;
-                }
-               
-            }
-        &__div {
-            display: flex;
-            justify-content: center;
-            // width: 270px;
-            // height: 120px;
-            width: 100%;
-            height: 120px;
-            align-items: center;
-            background: #f5f4fa;
-            border-radius: 4px;
-            margin-bottom: 30px;
-             
-        }  
-            
+  @include section-paddings(60px, 60px);
+  @media screen and (min-width: 1200px) {
+    @include section-paddings();
+  }
+  &__list {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  &__div {
+    display: flex;
+    justify-content: center;
+    // width: 270px;
+    // height: 120px;
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
 
-        &__item {
-            // width: 270px;
-          
-            width:100%;
-            @media screen and (min-width:480px){
-                 width: 450px;
-            }
-            margin-bottom: 30px;
-                &:last-child {
-                            margin-bottom: 0;
-                }
-            @media screen and (min-width:768px){
-                
-                width: 354px;
-                margin-right: 30px;
-                &:nth-child(2n){
-                        margin-right: 0;
-                }
-            }
-            @media screen and (min-width:1200px) {
-                    width: 270px;
-                     margin-bottom: 0;
-                    margin-right: 30px;
-                    &:nth-child(2n) {
-                            margin-right: 30px;
-                        }
-                }
-            &:last-child {
-                margin-right: 0;
-            }
-        }
-        &__title {
-            font-weight: 700;
-            font-size: 14px;
-            // 
-            line-height: calc(16/14);
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            margin-bottom: 10px;
-            color: $secondary-text-color;
-            //  text-align: center;
-        }
-        &__text {
-            font-size: 14px;
-            line-height: calc(24/14);
-            letter-spacing: 0.03em;
-            color: $primery-text-color;
-        }
+  &__item {
+    // width: 270px;
+
+    width: 100%;
+    @media screen and (min-width: 480px) {
+      width: 450px;
+    }
+    margin-bottom: 30px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @media screen and (min-width: 768px) {
+      width: 354px;
+      margin-right: 30px;
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+      margin-bottom: 0;
+      margin-right: 30px;
+      &:nth-child(2n) {
+        margin-right: 30px;
+      }
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    //
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: $secondary-text-color;
+    //  text-align: center;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: $primery-text-color;
+  }
 }

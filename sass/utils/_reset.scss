@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 /*reset*/
 h1,
@@ -11,21 +11,21 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 /*для контентних зображень*/
 img {
-    display: block;
-    max-width:100% ;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 ul,
 li {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
