@@ -1177,6 +1177,13 @@ body {
   border-bottom: 1px solid currentColor;
 }
 
+.modal-label {
+  font-size: 12px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
 .modal-checkbox-text {
   font-size: 12px;
   line-height: 1.1666666667;
