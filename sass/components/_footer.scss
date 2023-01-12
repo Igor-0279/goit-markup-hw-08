@@ -9,8 +9,11 @@
     // flex-direction:column;
     // flex-basis: auto;
     
-    text-align: center;
+    
     justify-content: center;
+    @media screen and (max-width: 1199.98px){
+        text-align: center;
+    }
     @media screen and (min-width: 768px){
         display: flex;
         flex-wrap: wrap;
@@ -83,27 +86,35 @@
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact-footer {
+.contact-footer-item{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 
     font-style: normal;
     margin-bottom: 9px;
+    &:last-child {
+             margin-bottom: 0;
+                }
+}
+.contact-footer {
     color: rgba(255, 255, 255, 0.6);
-
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 /*приєднуйтесь*/
 .social-team-footer {
     // margin-right: 93px;
     // width: 206px;
-    text-align: center;
+    
     justify-content: center;
     margin-bottom: 60px;
      @media screen and (min-width: 768px) {
                 margin-right: 93px;
             }
+    @media screen and (max-width: 1199.98px){
+        text-align: center;
+    }
 }
 .footer-text {
     font-weight: 700;
@@ -111,7 +122,7 @@
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
+    
     margin-bottom: 20px;
 
     color: $button-color;

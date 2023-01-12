@@ -430,7 +430,6 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
   color: #212121;
-  text-align: center;
 }
 .feature__text {
   font-size: 14px;
@@ -708,10 +707,14 @@ body {
 }
 
 .footer--container {
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media screen and (max-width: 1199.98px) {
+  .footer--container {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .footer--container {
@@ -803,12 +806,18 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-footer {
+.contact-footer-item {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-style: normal;
   margin-bottom: 9px;
+}
+.contact-footer-item:last-child {
+  margin-bottom: 0;
+}
+
+.contact-footer {
   color: rgba(255, 255, 255, 0.6);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -816,7 +825,6 @@ body {
 
 /*приєднуйтесь*/
 .social-team-footer {
-  text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -825,6 +833,11 @@ body {
 @media screen and (min-width: 768px) {
   .social-team-footer {
     margin-right: 93px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .social-team-footer {
+    text-align: center;
   }
 }
 
@@ -935,7 +948,6 @@ body {
   }
 }
 .mailing__button {
-  margin-top: 20px;
   bottom: 0;
   right: 0;
 }
