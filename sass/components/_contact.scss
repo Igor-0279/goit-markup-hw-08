@@ -1,25 +1,19 @@
 /*Контакти*/
 .contact {
-  // display: flex;
   margin-left: auto;
 
   @media screen and (min-width: 768px) {
     display: flex;
-
     flex-direction: column;
-
     gap: 10px;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
-
     align-items: center;
     flex-direction: row;
-
     &__link {
       margin-right: 30px;
     }
-
     &:last-child {
       margin-right: 0;
     }

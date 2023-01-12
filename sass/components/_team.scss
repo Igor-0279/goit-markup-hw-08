@@ -8,16 +8,12 @@
   background-color: $button-color;
 }
 .team__top {
-  // display: flex;
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
   }
 }
 .team-card {
-  // width: 270px;
-  // width: 450px;
-
   @media screen and (max-width: 767.98px) {
     margin-bottom: 30px;
     &:last-child {
