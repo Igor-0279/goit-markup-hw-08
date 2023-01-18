@@ -1239,25 +1239,51 @@ body {
 
 /*Портфоліо*/
 .portf {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .portf {
+    margin-top: 94px;
+    margin-bottom: 94px;
+  }
 }
 
 .filter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .filter {
+    padding-bottom: 40px;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .filter {
+    padding-bottom: 50px;
+  }
 }
 
 .buttons-portfolio {
+  margin-bottom: 15px;
   margin-right: 8px;
 }
 .buttons-portfolio:last-child {
   margin-right: 0;
+}
+@media screen and (min-width: 768px) {
+  .buttons-portfolio {
+    margin-bottom: 0;
+  }
 }
 
 .buttons {
